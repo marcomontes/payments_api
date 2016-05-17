@@ -1,4 +1,4 @@
-# SETUP PROJECT
+## SETUP PROJECT
 
 ```
 bundle install
@@ -8,6 +8,12 @@ bundle install
 
 ```
 redis
+```
+
+## RUN TESTS
+
+```
+rspec
 ```
 
 
