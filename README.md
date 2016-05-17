@@ -1,23 +1,23 @@
-## SETUP PROJECT
+### SETUP PROJECT
 
 ```
 bundle install
 ```
 
-## REQUIREMENTS
+### REQUIREMENTS
 
 ```
 redis
 ```
 
-## RUN TESTS
+### RUN TESTS
 
 ```
 rspec
 ```
 
 
-## API ROUTES
+### API ROUTES
 
 ```
 api/v1/tokens
@@ -49,7 +49,7 @@ Params:
 }
 ```
 
-## CURL EXAMPLES
+### CURL EXAMPLES
 
 ```
 curl -H "Content-Type: application/json" -X POST -d '{ "name":"Marco Montes","number":"4242 4242 4242 4242","exp_month":"06","exp_year":"2017","cvc":"123" }' http://localhost:3000/api/v1/tokens
